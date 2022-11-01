@@ -1,0 +1,71 @@
+.edit{
+    height: 1100px;
+    width: 100%;
+    background-image: linear-gradient(rgb(164, 146, 162,.8),rgb(164, 146, 162,.1)), url(../images/hugeFormations.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    .editContainer{
+        height: 950px;
+        width: 800px;
+        background-color: rgb(0, 0, 0, .5);
+        .edit-title{
+            height:30px;
+            width: 432px;
+            // background-color:brown;
+            font-size: 20px;
+            font-family: Inconsolata;
+            border-bottom: 2px solid;
+            margin-bottom: 20px;
+            color: white;
+            margin-left: 182px;
+            margin-top: 20px;
+        }
+        form{
+            // background-color: aqua;
+            height: 500px;
+            width: 432px;
+            margin: 0 auto;
+            margin-top: 30px;
+            // opacity: .9;
+            label{
+                font-size: 18px;
+                font-family: Inconsolata;
+                color: white;
+            }
+            input{
+                width: 431px;
+                height: 40px;
+                border: 2px solid rgb(164, 146, 162);
+                margin-bottom: 20px;
+                opacity: .7;
+            }
+            // .submit{
+            //     height: 30px;
+            //     width: 100px;
+            //     background-color: rgb(164, 146, 162);
+            //     border-radius: 5px;
+            //     color: white;
+            //     font-family: Inconsolata;
+            //     font-size: 18px;
+            //     margin-top: 10px;
+            //     opacity: 1;
+            // }
+            button{
+                height: 30px;
+                width: 100px;
+                background-color: rgb(164, 146, 162);
+                border-radius: 5px;
+                color: white;
+                font-family: Inconsolata;
+                font-size: 18px;
+                margin-top: 10px;
+                opacity: 1;
+            }
+        }      
+    }
+}

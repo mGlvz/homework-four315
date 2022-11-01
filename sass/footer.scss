@@ -1,0 +1,17 @@
+footer {
+    height: 50px;
+    width: 1440px;
+    background-color:rgb(0, 0, 0,.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    .copyright {
+        font-size: 15px;
+        color:aliceblue
+    }
+    .terms {
+        font-size: 15px;
+        color:aliceblue
+    }
+}

@@ -1,0 +1,32 @@
+.login {
+  height: 850px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(164, 146, 162, 0.8)), to(rgba(164, 146, 162, 0.1))), url(../images/caveRiver.JPG);
+  background-image: linear-gradient(rgba(164, 146, 162, 0.8), rgba(164, 146, 162, 0.1)), url(../images/caveRiver.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.login .loginContainer {
+  height: 650px;
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
